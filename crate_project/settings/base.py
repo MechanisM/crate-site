@@ -47,13 +47,13 @@ LOCALE_PATHS = [
 ]
 
 LANGUAGES = (
-    ("en", gettext("English")),
-    ("es", gettext("Spanish")),
-    ("fr", gettext("French")),
-    ("de", gettext("German")),
-    ("pt-br", gettext("Portuguese (Brazil)")),
-    ("ru", gettext("Russian")),
-    # ("sv", gettext("Swedish")),
+    ("en", u"English"),
+    ("es", u"Español"),
+    ("fr", u"Français"),
+    ("de", u"Deutsch"),
+    ("pt-br", u"Português (Br)"),
+    ("ru", u"Русский"),
+    # ("sv", u"Svenska"),
 )
 
 MEDIA_ROOT = os.path.join(PROJECT_ROOT, "site_media", "media")
